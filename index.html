@@ -8,35 +8,50 @@ Description: Personal Portfolio
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A comprehensive portfolio showcasing personal information, career goals, education, work experience, skills, and hobbies.">
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap" rel="stylesheet"> 
     <meta name="keywords" content="portfolio, personal information, career goals, education, work experience, skills, hobbies">
     <meta name="author" content="Your Name">
     <title>Ving Hay San Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>Ving Hay San</h1>
-    <img src="/images/github.svg" alt="github" width="50" height="50">
-    <img src="/images/linkedin.svg" alt="linkedin" width="50" height="50">
-    <img src="/images/twitter.svg" alt="twitter" width="50" height="50">
-</header>
+<div class="navigation">
+  <input type="checkbox" class="navigation-checkbox" id="navi-toggle">
+  
+  <label for="navi-toggle" class="navigation-button">
+    <span class="navigation-icon">&nbsp;</span>
+  </label>
 
-<nav class="navbar">
-    <ul>
-        <li><a href="#personal-info">Personal Information</a></li>
-        <li><a href="#career-goal">Career Goal</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#work-experience">Work Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
+  <div class="navigation-background">&nbsp;</div>
+  
+<nav class="navigation-bar">
+    <ul class="nav-lists">
+        <li class="navigation-item"><a href="#personal-info" class="navigation-link">Personal Information</a></li>
+        <li class="navigation-item"><a href="#career-goal" class="navigation-link">Career Goal</a></li>
+        <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
+        <li class="navigation-item"><a href="#work-experience" class="navigation-link">Work Experience</a></li>
+        <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
+        <li class="navigation-item"><a href="#hobbies" class="navigation-link">Hobbies</a></li>
     </ul>
 </nav>
+</div>
+
+<header class="header">
+  <div class="header-content">
+    <h1 class="primary-heading">Hi, I'm <span>VingHay San</span>, Welcome.</h1>
+    <div class="social-icon">
+      <img src="/images/github.svg" alt="github">
+      <img src="/images/linkedin.svg" alt="linkedin">
+      <img src="/images/envelope-solid.svg" alt="email">
+    </div>
+  </div> 
+</header>
+
+
 
 <section id="personal-info">
     <h2>Personal Information</h2>
-    <p>My name is Vinghay San and I am currently studying Msc Computer Science at Univeristy Of Liverpool. With a vibrant background in e-commerce spanning over 7 years, I've developed a keen interest in Programming</p>
+    <p>My name is <span>Vinghay San</span> and I am currently studying Msc Computer Science at Univeristy Of Liverpool. With a vibrant background in e-commerce spanning over 7 years, I've developed a keen interest in Programming</p>
 </section>
 
 <section id="career-goal">
