@@ -4,135 +4,139 @@ Creation: 2024-01-02
 Description: Personal Portfolio
 -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A comprehensive portfolio showcasing personal information, career goals, education, work experience, skills, and hobbies.">
-    <meta name="keywords" content="portfolio, personal information, career goals, education, work experience, skills, hobbies">
-    <meta name="author" content="Your Name">
-    <title>Ving Hay San Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="A comprehensive portfolio showcasing personal information, career goals, education, work experience, skills, and hobbies.">
+      <meta name="keywords" content="portfolio, personal information, career goals, education, work experience, skills, hobbies">
+      <meta name="author" content="Your Name">
+      <title>Ving Hay San Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+
 <body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation-checkbox" id="navi-toggle">
+    
+    <label for="navi-toggle" class="navigation-button">
+    <span class="navigation-icon">&nbsp;</span>
+    </label>
+  <div class="navigation-background">&nbsp;</div>
 
-<div class="navigation">
-  <input type="checkbox" class="navigation-checkbox" id="navi-toggle">
-  
-  <label for="navi-toggle" class="navigation-button">
-  <span class="navigation-icon">&nbsp;</span>
-  </label>
+    <nav class="navigation-bar">
+        <ul class="nav-lists">
+            <li class="navigation-item"><a href="#personal-info" class="navigation-link">Personal Information</a></li>
+            <li class="navigation-item"><a href="#career-goal" class="navigation-link">Career Goal</a></li>
+            <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
+            <li class="navigation-item"><a href="#work-experience" class="navigation-link">Work Experience</a></li>
+            <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
+            <li class="navigation-item"><a href="#hobbies" class="navigation-link">Hobbies</a></li>
+        </ul>
+    </nav>
+  </div>
 
-<div class="navigation-background">&nbsp;</div>
+  <header class="header">
+    <div class="header-content">
+      <h1 class="primary-heading">Hi, I'm <span>VingHay San</span>, a Computer Science Student.</h1>
+      <div class="social-icon">
+        <img src="/images/github.svg" alt="github">
+        <img src="/images/linkedin.svg" alt="linkedin">
+        <img src="/images/envelope-solid.svg" alt="email">
+      </div>
+    </div> 
+  </header>
 
-  <nav class="navigation-bar">
-      <ul class="nav-lists">
-          <li class="navigation-item"><a href="#personal-info" class="navigation-link">Personal Information</a></li>
-          <li class="navigation-item"><a href="#career-goal" class="navigation-link">Career Goal</a></li>
-          <li class="navigation-item"><a href="#education" class="navigation-link">Education</a></li>
-          <li class="navigation-item"><a href="#work-experience" class="navigation-link">Work Experience</a></li>
-          <li class="navigation-item"><a href="#skills" class="navigation-link">Skills</a></li>
-          <li class="navigation-item"><a href="#hobbies" class="navigation-link">Hobbies</a></li>
-      </ul>
-  </nav>
-</div>
+<main>
+  <section class="personalinfo-section" id="personal-info">
+      <h2 class="personalinfo-heading">Personal Information</h2>
 
-<header class="header">
-  <div class="header-content">
-    <h1 class="primary-heading">Hi, I'm <span>VingHay San</span>, Welcome.</h1>
-    <div class="social-icon">
-      <img src="/images/github.svg" alt="github">
-      <img src="/images/linkedin.svg" alt="linkedin">
-      <img src="/images/envelope-solid.svg" alt="email">
+      <div class="container">
+        <div class="col-1-of-2">
+      <p>My name is <span>Vinghay San</span> and I am currently studying Msc Computer Science at Univeristy Of Liverpool. With a vibrant background in e-commerce spanning over 7 years, I've developed a keen interest in Programming</p>
+        </div>
+        <div class="col-2-of-2">
+          <img class="vinghay-photo" src="/images/vinghay_photo.JPG" alt="vinghay photo">
+        </div>
     </div>
-  </div> 
-</header>
+  </section>
 
+  <section id="career-goal">
+      <h2>Career Goal</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>My goal is to become a highly qualified professional working in the technology industry and I see myself working as a software engineer in a dynamic and innovative company.</p>
+  </section>
 
-
-<section id="personal-info">
-    <h2>Personal Information</h2>
-    <p>My name is <span>Vinghay San</span> and I am currently studying Msc Computer Science at Univeristy Of Liverpool. With a vibrant background in e-commerce spanning over 7 years, I've developed a keen interest in Programming</p>
-</section>
-
-<section id="career-goal">
-    <h2>Career Goal</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>My goal is to become a highly qualified professional working in the technology industry and I see myself working as a software engineer in a dynamic and innovative company.</p>
-</section>
-
-<section id="education">
-    <h2>Education</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th>School Name</th>
-          <th>Degree</th>
-          <th>Year</th>
-          <th>Grade</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
+  <section id="education">
+      <h2>Education</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>School Name</th>
+            <th>Degree</th>
+            <th>Year</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>University Of liverpool</td>
+            <td>Msc Computer Science</td>
+            <td>2023 - Present</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Aston University</td>
+            <td>Bsc Mathematics With Economics</td>
+            <td>2010 - 2013</td>
+            <td>2:1</td>
+          </tr>
           <td></td>
-          <td>University Of liverpool</td>
-          <td>Msc Computer Science</td>
-          <td>2023 - Present</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>Aston University</td>
-          <td>Bsc Mathematics With Economics</td>
-          <td>2010 - 2013</td>
-          <td>2:1</td>
-        </tr>
-        <td></td>
-        <td>Loreto College</td>
-        <td>
-          <ul>
-            <li>A Level Mathemematics</li>
-            <li>A level Computing</li>
-            <li>A Level Graphic Design</li>
-          </ul>
-          <td>2006 - 2009</td>
-          <td></td>
-        </td>
-        
-        
-      </tbody>
-    </table>
-    
-</section>
+          <td>Loreto College</td>
+          <td>
+            <ul>
+              <li>A Level Mathemematics</li>
+              <li>A level Computing</li>
+              <li>A Level Graphic Design</li>
+            </ul>
+            <td>2006 - 2009</td>
+            <td></td>
+          </td>
+        </tbody>
+      </table>
+  </section>
 
-<section id="work-experience">
-    <h2>Work Experience</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>6+ years’ experience in ecommerce with a background in online sales, marketing, and customer service. Skilled in managing multiple ecommerce platforms, analysing data to make informed decisions, and cooperating with the teams</p>
-    <p>My task involves development and maintenance of ecommerce platforms and web applications. I am also responsible for strategic management of products and product e-commerce marketing, where I plan and implement strategies across the marketplace to drive revenue</p>
-</section>
+  <section id="work-experience">
+      <h2>Work Experience</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>6+ years’ experience in ecommerce with a background in online sales, marketing, and customer service. Skilled in managing multiple ecommerce platforms, analysing data to make informed decisions, and cooperating with the teams</p>
+      <p>My task involves development and maintenance of ecommerce platforms and web applications. I am also responsible for strategic management of products and product e-commerce marketing, where I plan and implement strategies across the marketplace to drive revenue</p>
+  </section>
 
-<section id="skills">
-    <h2> Programming Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Javascript</li>
-        <li>HTML, CSS</li>
-        <li>MYSQL</li>
-    </ul>
-    
-    <img src="/images/python.svg" alt="python" width="50" height="50">
-    <img src="/images/html5.svg" alt="html" width="50" height="50" >
-    <img src="/images/css3-alt.svg" alt="css" width="50" height="50">
-    <img src="/images/js.svg" alt="javascript" width="50" height="50">
-    <img src="/images/database-solid.svg" alt="database" width="50" height="50">
-</section>
+  <section id="skills">
+      <h2> Programming Skills</h2>
+      <ul>
+          <li>Python</li>
+          <li>Javascript</li>
+          <li>HTML, CSS</li>
+          <li>MYSQL</li>
+      </ul>
+      
+      <img src="/images/python.svg" alt="python" width="50" height="50">
+      <img src="/images/html5.svg" alt="html" width="50" height="50" >
+      <img src="/images/css3-alt.svg" alt="css" width="50" height="50">
+      <img src="/images/js.svg" alt="javascript" width="50" height="50">
+      <img src="/images/database-solid.svg" alt="database" width="50" height="50">
+  </section>
 
-<section id="hobbies">
-    <h2>Hobbies, Interests, and Achievements</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</section>
+  <section id="hobbies">
+      <h2>Hobbies, Interests, and Achievements</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+</main>
 
 <footer>
     Last updated: <time id="last-modified">02/02/2024</time>
