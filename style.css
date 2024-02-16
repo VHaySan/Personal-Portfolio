@@ -10,14 +10,48 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/*navbar*/
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(15, 42, 133);
+    z-index: 300;
+    padding: 1.5rem 0;
+    gap: 2rem;
+}
+
+.navlists{
+    display: flex;   
+    gap: 2rem;
+    list-style: none;
+}
+
+.navigationlink{
+    text-decoration: none;
+    color: #fff; 
+    font-size: 18px;
+}
+
+.navigationitem{
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+
 /*header styles*/
 .header{
-    margin:30px;
+    /* margin:30px; */
     position: relative;
-    height: 95vh;
+    height: 100vh;
     background-image: linear-gradient(
         to right,
-         rgba(15, 42, 133, 0.8),
+         rgba(12, 31, 92, 0.8),
          rgba(24,24,27,0.8)),
            url(/images/digital-1742687_1920.jpg);
     background-size: cover;
@@ -108,13 +142,16 @@ a{
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin: 15px;
+    margin: 70px;
     transition: 0.4s ease;
+    position: absolute;
+    left: 45%;
+    
 }
 
 .arrow-down:hover{
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.4);
-    /* animation: move 1.1s infinite ease-in-out; */
+    animation: float 1.1s infinite ease-in-out;
 }
 
 .arrow{
@@ -126,17 +163,16 @@ a{
     transform: rotate(225deg);
 }
 
-@keyframes move {
-0% {
-    margin-top: 0;
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
-50%{
-    margin-top: 100px;
-}
-100%{
-    margin-top: 0; 
-}
-}
+
 
 /* nav-button */
 .navigation-checkbox{
@@ -281,10 +317,10 @@ a{
 /*Personal info*/
 .personalinfo-section{
     background-color: #f7f7f7;
-    padding: 25rem 0;
+    padding: 15rem 0;
     margin-top: -20vh;
-    margin-left:30px;
-    margin-right:30px;
+    /* margin-left:30px;
+    margin-right:30px; */
 }
 
 .personalinfo-heading{

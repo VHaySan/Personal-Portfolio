@@ -15,7 +15,19 @@ Description: Personal Portfolio
   </head>
 
 <body>
-  <div class="navigation">
+  <nav class="navbar">
+    <ul class="navlists">
+      <li class="navigationitem"><a href="#home" class="navigationlink">Home</a></li>
+      <li class="navigationitem"><a href="#personal-info" class="navigationlink">Personal Information</a></li>
+      <li class="navigationitem"><a href="#career-goal" class="navigationlink">Career Goal</a></li>
+      <li class="navigationitem"><a href="#education" class="navigationlink">Education</a></li>
+      <li class="navigationitem"><a href="#work-experience" class="navigationlink">Work Experience</a></li>
+      <li class="navigationitem"><a href="#skills" class="navigationlink">Skills</a></li>
+      <li class="navigationitem"><a href="#hobbies" class="navigationlink">Hobbies</a></li>
+  </ul>
+  </nav>
+
+  <!-- <div class="navigation">
     <input type="checkbox" class="navigation-checkbox" id="navi-toggle">
     
     <label for="navi-toggle" class="navigation-button">
@@ -33,9 +45,9 @@ Description: Personal Portfolio
             <li class="navigation-item"><a href="#hobbies" class="navigation-link">Hobbies</a></li>
         </ul>
     </nav>
-  </div>
+  </div> -->
 
-  <header class="header">
+  <header class="header" id="home">
     <div class="header-content">
       <h1 class="primary-heading">Hi, I'm <span>VingHay San</span>, a Computer Science Student.</h1>
       <div class="social-icon">
@@ -44,15 +56,15 @@ Description: Personal Portfolio
         <img src="/images/envelope-solid.svg" alt="email">
       </div>
 
-      <a href="#personal-info">
-      <div class="arrow-down">
-        <div class="arrow">
-          &nbsp;
+      <a href="#personal-info" class="arrow-link">
+        <div class="arrow-down">
+          <div class="arrow">
+            &nbsp;
+          </div>
         </div>
-      </div>
-      </a>
-      
-    </div> 
+        </a> 
+    </div>
+    
   </header>
 
 
