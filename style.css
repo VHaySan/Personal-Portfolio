@@ -98,8 +98,9 @@ a{
 }
 
 .header h1 span{
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 3px #fff;
+    color:rgb(168, 66, 66)
+    /* -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #fff; */
 }
 
 /*header animation*/
