@@ -25,7 +25,7 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgba(15, 42, 133);
+    background-color: rgba(12, 31, 92);
     z-index: 300;
     padding: 1.5rem 0;
     gap: 2rem;
@@ -366,7 +366,7 @@ a{
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .2rem;;
+    letter-spacing: .1rem;;
 }
 
 .container-row{
@@ -385,8 +385,17 @@ a{
     border-radius: 50%;
 }
 
+/* education section */
+.container-education{
+    background-color: #f7f7f7;
+    width: 100%;
+}
 
 /*skills section*/
+.container-skills{
+    background-color: #f7f7f7;
+}
+
 .skills{
     margin-top: 4rem;
     display: grid;
@@ -401,7 +410,7 @@ a{
     justify-content: center;
     width: 100%;
     height: 100px;
-    background-color: #f7f7f7;
+    background-color: rgba(12, 31, 92);
 }
 
 .wrapper{
@@ -411,6 +420,7 @@ a{
     max-width: 114rem;
     padding: 2rem;
     width: 100%;
+    color: #fff;
 }
 
 .footer-header{
@@ -421,4 +431,5 @@ a{
     width: 40px;
     height:40px;
     padding: 1rem 0 0 .5rem;
+    filter: brightness(0) invert(1)
 }
