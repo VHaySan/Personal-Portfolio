@@ -300,10 +300,13 @@ a{
 }
 
 /*burger icon*/
+.navigation{
+    visibility: hidden;
+}
+
 .navigation-icon{
     position: relative;
     margin-top: 2.5rem;
-   
 }
 
 .navigation-icon, .navigation-icon::before, .navigation-icon::after{
