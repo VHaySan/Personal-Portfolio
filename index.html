@@ -25,7 +25,6 @@ Description: Personal Portfolio
       <li class="navigationitem"><a href="#skills" class="navigationlink">Skills</a></li>
       <li class="navigationitem"><a href="#hobbies" class="navigationlink">Hobbies</a></li>
   </ul>
-  
   </nav>
 
   <div class="navigation">
@@ -56,8 +55,8 @@ Description: Personal Portfolio
       <h1 class="primary-heading">Hi, I'm <span>VingHay San</span>, a Computer Science Student.</h1>
       <div class="social-icon">
         <a href="https://github.com/VHaySan"><img src="/images/github.svg" alt="github"></a>
-        <img href="www.linkedin.com/in/ving-hay-san-517073105" src="/images/linkedin.svg" alt="linkedin">
-        <img src="/images/envelope-solid.svg" alt="email">
+        <a href="https://www.linkedin.com/in/ving-hay-san-517073105"><img  src="/images/linkedin.svg" alt="linkedin"></a>
+        <a href="mailto:sgvsan2@liverpool.ac.uk"><img src="/images/envelope-solid.svg" alt="email"></a>
       </div> 
     </div>
     
@@ -76,6 +75,7 @@ Description: Personal Portfolio
             My name is 
             <span>Vinghay San</span> 
             and I am currently studying Msc Computer Science at Univeristy Of Liverpool, with a deep love for coding, problem-solving, and all things maths related.
+            based in Manchester, UK, I am an experienced professional in e-commerce and sales administration, with over 6 years of broad experience in the e-commerce industry.
           </p>
           <p class="info-text">
 
@@ -103,42 +103,46 @@ Description: Personal Portfolio
       <p>
         My second semester modules are: Web Programming, Web Mapping and Geovisualisation, Machine Learning and BioInspired Optimisation and Data Mining.
       </p>
-      <table>
-        <thead>
+
+      <table class="content-table">
+        <thead class="table-head">
           <tr>
-            <th></th>
             <th>School Name</th>
             <th>Degree</th>
             <th>Year</th>
-            <th>Grade</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td></td>
+        <tbody class="table-body">
+          <tr class="table-body-row">
             <td>University Of liverpool</td>
             <td>Msc Computer Science</td>
             <td>2023 - Present</td>
-            <td></td>
           </tr>
-          <tr>
-            <td></td>
+          <tr class="table-body-row">
             <td>Aston University</td>
             <td>Bsc Mathematics With Economics</td>
             <td>2010 - 2013</td>
-            <td>2:1</td>
           </tr>
-          <td></td>
-          <td>Loreto College</td>
-          <td>
-            <ul>
-              <li>A Level Mathemematics</li>
-              <li>A level Computing</li>
-              <li>A Level Graphic Design</li>
-            </ul>
+          <tr class="table-body-row">
+            <td>Loreto College</td>
+            <td>
+              <ul>
+                <li>A Level Mathemematics</li>
+                <li>A level Computing</li>
+                <li>A Level Graphic Design</li>
+              </ul>
+            </td>
             <td>2006 - 2009</td>
-            <td></td>
-          </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                <p>
+                  With a combination of mathematics, economics, and computer science, my academic path has provided me with a solid groundwork to pursue my desire to bring innovation to the software engineering field. The varied skill set acquired through this interdisciplinary approach enables me to approach complicated issues with a well-rounded perspective that incorporates analytical rigor and creative problem-solving.
+                </p>
+              </td>
+            </tr>
+          </tfoot>
         </tbody>
       </table>
   
@@ -148,7 +152,9 @@ Description: Personal Portfolio
       <h2>
         Work Experience
       </h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p><span>EASTWAY TRADING LTD (2016 to Sept 2023):</span> As an E-commerce and Sales Administrator, I was instrumental in delivering exceptional customer service, managing product listings across various platforms, and conducting market analyses to ensure competitive positioning.</p>
+      <p><span>LUXMIUM LTD (2019 to 2022):</span> Balancing the roles of Bookkeeper and E-commerce Administrator, he adeptly managed financial records and online stock, enhancing the company's online presence on major platforms like Amazon and eBay.</p>
+      <p><span>CHI YIP LIMITED (February 2016 to June 2016):</span> As a Human Resource Administrator, Ving honed his skills in employee management, payroll processing, and ensuring compliance with employment regulations.</p>
       <p>6+ years experience in ecommerce with a background in online sales, marketing, and customer service. Skilled in managing multiple ecommerce platforms, analysing data to make informed decisions, and cooperating with the teams</p>
       <p>My task involves development and maintenance of ecommerce platforms and web applications. I am also responsible for strategic management of products and product e-commerce marketing, where I plan and implement strategies across the marketplace to drive revenue</p>
   </section>
@@ -228,22 +234,24 @@ Description: Personal Portfolio
 </main>
 
 <footer class="container-footer">
-    <div class="wrapper">
-      <h3 class="footer-header">
-        thanks for visiting
-      </h3>
-      <div class="copyright">
-        <p>
-        Copyright © 2024 VingHay San
-        </p>
+  <div class="wrapper">
+      <h3 class="footer-header">thanks for visiting</h3>
+
+      <div class="bottom-block">
+          <div class="copyright">
+              <p>Copyright © 2024 VingHay San</p>
+          </div>
+          <p class="last-mod">Last modification <!--#flastmod file="index.html" --></p>
       </div>
+
       <div class="social-icon-footer">
-        <a href="https://github.com/VHaySan"><img class="social-image-footer" src="/images/github.svg" alt="github"></a>
-        <img class="social-image-footer" src="/images/linkedin.svg" alt="linkedin">
-        <img class="social-image-footer" src="/images/envelope-solid.svg" alt="email">
+          <a href="https://github.com/VHaySan"><img class="social-image-footer" src="/images/github.svg" alt="github"></a>
+          <a href="https://www.linkedin.com/in/ving-hay-san-517073105"><img class="social-image-footer" src="/images/linkedin.svg" alt="linkedin"></a>
+          <a href="mailto:sgvsan2@liverpool.ac.uk"><img class="social-image-footer" src="/images/envelope-solid.svg" alt="email"></a>
       </div>
-    </div>
+  </div>
 </footer>
-Last modification <!--#flastmod file="index.html" -->
+
+
 </body>
 </html>
