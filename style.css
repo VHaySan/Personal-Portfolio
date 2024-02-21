@@ -394,6 +394,13 @@ a{
     height: 400px;
     border-radius: 50%;
 }
+
+.info-text{
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
 /* career goal section */
 
 .container-career-goal{
@@ -441,6 +448,11 @@ a{
     height: 100%;
 }
 
+.story-text{
+    line-height: 1.7rem;
+    padding: 2rem;
+}
+
 /* education section */
 .container-education{
     background-color: #f7f7f7;
@@ -466,6 +478,16 @@ a{
     padding: .8rem 1.5rem;
 }
 
+/* work experience section */
+.workexperince-text{
+    padding: 2rem;
+    line-height: 1.7rem;
+}
+
+.workexperience-span{
+text-transform: uppercase;
+font-weight: bold;
+}
 
 /*skills section*/
 .container-skills{
@@ -595,25 +617,40 @@ a{
   }
 
   @keyframes html {
-    0% { width: 0; }
-    100% { width: 70%; }
+    0% { 
+        width: 0; 
+    }
+    100% {
+         width: 70%; 
+        }
   }
 
   @keyframes css {
-    0% { width: 0; }
-    100% { width: 70%; }
+    0% { 
+        width: 0; 
+    }
+    100% { 
+        width: 70%; 
+    }
   }
 
   @keyframes javascript {
-    0% { width: 0; }
-    100% { width: 50%; }
+    0% { 
+        width: 0; 
+    }
+    100% { 
+        width: 50%; 
+    }
   }
 
   @keyframes mysql {
-    0% { width: 0; }
-    100% { width: 40%; }
+    0% { 
+        width: 0; 
+    }
+    100% { 
+        width: 40%; 
+    }
   }
-
 
 /*footer*/
 .container-footer {
@@ -655,3 +692,4 @@ a{
 .last-mod {
     color: #fff;
 }
+
