@@ -504,7 +504,7 @@ font-weight: bold;
 
 .card{
  position: relative;
- height: 12rem;
+ height: 19rem;
 }
 
 .card-side{
@@ -519,7 +519,7 @@ font-weight: bold;
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    height: 12rem;
+    height: 19rem;
     color: #fff;
 }
 
