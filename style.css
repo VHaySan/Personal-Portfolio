@@ -32,7 +32,7 @@ h2{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgba(12, 31, 92);
+    background-color: rgb(6, 20, 65);
     z-index: 300;
     padding: 1.5rem 0;
     gap: 2rem;
@@ -105,8 +105,8 @@ a{
 }
 
 .header h1 span{
-    -webkit-text-fill-color: #000;
-    -webkit-text-stroke: 3px #fff;
+    -webkit-text-fill-color: #eeb75a;
+    /* -webkit-text-stroke: 3px #fff; */
 }
 
 /*header animation*/
@@ -464,6 +464,11 @@ a{
     width: 100%;
 }
 
+.education-text{
+    text-align: center;
+    line-height: 1.7rem;    
+}
+
 .education-heading{
     margin-top: -4rem;
     padding-bottom: 4rem;
@@ -490,7 +495,7 @@ a{
 
 /* work experience section */
 .workexperince-text{
-    padding: 2rem;
+    padding: 1.7rem;
     line-height: 1.7rem;
 }
 
@@ -525,6 +530,10 @@ font-weight: bold;
 .card{
  position: relative;
  height: 19rem;
+}
+
+.card-heading{
+ color: #eeb75a;
 }
 
 .card-side{
@@ -574,7 +583,7 @@ font-weight: bold;
     width: 80%;
     margin: 0 auto;
     position: relative;
-    padding: 50px 0;
+    padding: 6rem 0;
   }
   
   .skills-bar ul {
@@ -598,7 +607,7 @@ font-weight: bold;
   .skills-bar ul > li span {
     height: inherit;
     background-color: #94c245;
-    background: linear-gradient(90deg, #76b82a, #aecd60);
+    background: linear-gradient(90deg, #c09346, #eeb75a);
     position: absolute;
   }
   
@@ -685,7 +694,7 @@ font-weight: bold;
     align-items: center;
     width: 100%;
     height: auto; 
-    background-color: rgba(12, 31, 92);
+    background-color: rgb(6, 20, 65);
 }
 
 .wrapper {
