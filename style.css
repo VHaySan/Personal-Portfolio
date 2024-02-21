@@ -376,7 +376,8 @@ a{
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .1rem;;
+    letter-spacing: .1rem;
+    padding-top: 5rem;
 }
 
 .container-row{
@@ -407,7 +408,6 @@ a{
     background-size: cover;
     background-position: top;
     position: relative;
-    
 }
 
 .container-career-goal::before{
@@ -420,6 +420,11 @@ a{
     background-image: url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     opacity: .5;
     z-index: -1;
+}
+
+.career-heading{
+    margin-top: -4rem;
+    padding-bottom: 4rem;
 }
 
 .story-goal{
@@ -459,6 +464,11 @@ a{
     width: 100%;
 }
 
+.education-heading{
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+}
+
 .content-table{
     margin: 3rem 0;
     min-width: 40rem;
@@ -489,6 +499,11 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
+.work-heading{
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+}
+
 /*skills section*/
 .container-skills{
     background-color: #f7f7f7;
@@ -500,6 +515,11 @@ font-weight: bold;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
+}
+
+.skills-heading{
+    margin-top: -4rem;
+    padding-bottom: 4rem;
 }
 
 .card{
@@ -651,6 +671,12 @@ font-weight: bold;
         width: 40%; 
     }
   }
+
+/* hobbies section */
+.hobbies-heading{
+    margin-top: -4rem;
+    padding-bottom: 4rem;
+}
 
 /*footer*/
 .container-footer {
