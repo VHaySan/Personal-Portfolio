@@ -18,6 +18,13 @@ html {
     padding: 13rem 5rem;
 }
 
+h2{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
 /*navbar*/
 .navbar{
     position: fixed;
@@ -387,6 +394,52 @@ a{
     height: 400px;
     border-radius: 50%;
 }
+/* career goal section */
+
+.container-career-goal{
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    
+}
+
+.container-career-goal::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    background-image: url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    opacity: .5;
+    z-index: -1;
+}
+
+.story-goal{
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    padding-left: 7rem;
+    border-radius: 3px;
+    transform: translateX(-2rem);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.story-shape{
+    width: 12rem;
+    height: 12rem;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-2rem);
+}
+
+.story-image{
+    height: 100%;
+}
 
 /* education section */
 .container-education{
@@ -398,6 +451,9 @@ a{
     margin: 3rem 0;
     min-width: 40rem;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .table-head {
@@ -471,6 +527,93 @@ a{
     height: 4rem;
     filter: brightness(0) invert(1);
 }
+
+.skills-bar {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding: 50px 0;
+  }
+  
+  .skills-bar ul {
+    padding-top: 30px;
+    list-style-type: none; 
+  }
+  
+  .skills-bar ul > li {
+    margin-bottom: 50px;
+    background: #dedede;
+    height: 6px;
+    position: relative; 
+  }
+  
+  .skills-bar ul > li em {
+    font-size: 18px;
+    position: relative;
+    top: -30px; 
+  }
+  
+  .skills-bar ul > li span {
+    height: inherit;
+    background-color: #94c245;
+    background: linear-gradient(90deg, #76b82a, #aecd60);
+    position: absolute;
+  }
+  
+  .python{
+    width: 75%;
+    animation: python 2s ease-in-out;
+  }
+
+  .html5{
+    width: 70%;
+    animation: html 2s ease-out;
+  }
+  
+  .css3{
+    width: 70%;
+    animation: css 2s ease-out ;
+  } 
+  .js{
+    width: 50%;
+    animation: javascript 2s ease-out;
+  }
+
+   .mysql {
+    width: 40%;
+    animation-duration: 2s;
+    animation: mysql 2s ease-out;
+  }
+  
+  @keyframes python{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+  }
+
+  @keyframes html {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+  @keyframes css {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+  @keyframes javascript {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+
+  @keyframes mysql {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
+
 
 /*footer*/
 .container-footer {
