@@ -743,8 +743,6 @@ font-weight: bold;
     color: #fff;
 }
 
-
-
 /* tablet landscape 1200px*/
 @media (max-width: 75em){
     .header h1{
@@ -772,7 +770,7 @@ font-weight: bold;
     .story-goal{
         width: 100%
     }
-    
+
     .card-side-text{
         font-size: 75%;
 }
