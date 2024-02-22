@@ -406,7 +406,6 @@ a{
 }
 
 /* career goal section */
-
 .container-career-goal{
     background-size: cover;
     background-position: top;
@@ -536,8 +535,8 @@ font-weight: bold;
 }
 
 .card-heading{
- color: #eeb75a;
- text-transform: uppercase;
+    color: #eeb75a;
+    text-transform: uppercase;
 }
 
 .card-side{
@@ -565,10 +564,10 @@ font-weight: bold;
 }
 
 .card-side-back{
- background-color: #fff;
- transform: rotateY(180deg);
- color: #000;
- padding: 1.5rem;
+    background-color: #fff;
+    transform: rotateY(180deg);
+    color: #000;
+    padding: 1.5rem;
 }
 
 .card:hover .card-side-front{
@@ -601,100 +600,101 @@ font-weight: bold;
     padding: 6rem 0;
   }
   
-  .skills-bar ul {
+.skills-bar ul {
     padding-top: 30px;
     list-style-type: none; 
-  }
+}
   
-  .skills-bar ul > li {
+.skills-bar ul > li {
     margin-bottom: 50px;
     background: #dedede;
     height: 6px;
     position: relative; 
-  }
+}
   
-  .skills-bar ul > li em {
+.skills-bar ul > li em {
     font-size: 18px;
     position: relative;
     top: -30px; 
-  }
+}
   
-  .skills-bar ul > li span {
+.skills-bar ul > li span {
     height: inherit;
     background-color: #94c245;
     background: linear-gradient(90deg, #c09346, #eeb75a);
     position: absolute;
-  }
+}
   
-  .python{
+.python{
     width: 75%;
     animation: python 2s ease-in-out;
-  }
+}
 
-  .html5{
+.html5{
     width: 70%;
     animation: html 2s ease-out;
-  }
+}
   
-  .css3{
+.css3{
     width: 70%;
     animation: css 2s ease-out ;
-  } 
-  .js{
+} 
+
+.js{
     width: 50%;
     animation: javascript 2s ease-out;
-  }
+}
 
-   .mysql {
+.mysql {
     width: 40%;
     animation-duration: 2s;
     animation: mysql 2s ease-out;
-  }
+}
   
-  @keyframes python{
+@keyframes python{
     0%{
         width: 0;
     }
     100%{
         width: 75%;
     }
-  }
+}
 
-  @keyframes html {
+@keyframes html {
     0% { 
         width: 0; 
     }
     100% {
          width: 70%; 
         }
-  }
+}
 
-  @keyframes css {
+@keyframes css {
     0% { 
         width: 0; 
     }
     100% { 
         width: 70%; 
     }
-  }
+}
 
-  @keyframes javascript {
+@keyframes javascript {
     0% { 
         width: 0; 
     }
     100% { 
         width: 50%; 
     }
-  }
+}
 
-  @keyframes mysql {
+@keyframes mysql {
     0% { 
         width: 0; 
     }
     100% { 
         width: 40%; 
     }
-  }
+}
 
 /* hobbies section */
 .hobbies-heading{
@@ -900,8 +900,7 @@ font-weight: bold;
     
 /* large desktop 1800px*/
 @media( min-width: 112.5em){
- .card{
-    width: 100%;
+    .card{
+        width: 100%;
  }
- 
 }
