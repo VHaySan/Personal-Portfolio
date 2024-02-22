@@ -105,7 +105,6 @@ a{
 
 .header h1 span{
     -webkit-text-fill-color: #eeb75a;
-    /* -webkit-text-stroke: 3px #fff; */
 }
 
 /*header animation*/
@@ -152,7 +151,6 @@ a{
     height: 60px;
     width: 50px;
     border-radius: 50px;
-    /* margin: 30px; */
     transition: 0.4s ease;
     position: absolute;
     left: 50%;
@@ -196,7 +194,6 @@ a{
     right: 12px;
 }
 
-
 @keyframes float {
     0%, 100% {
         transform: translateY(0);
@@ -221,6 +218,7 @@ a{
         top: 90%;
     }
 }
+
 /* nav-button */
 .navigation-checkbox{
     display: none;
@@ -261,11 +259,9 @@ a{
     top: 0;
     left: 0;
     z-index: 150;
-
     opacity: 0;
     width: 0;
     transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
 }
 
 .nav-lists{
@@ -283,7 +279,6 @@ a{
 }
 
 .navigation-link{
-    /* background-image: radial-gradient( rgba(15, 42, 133, 0.6), rgba(24,24,27, 0.6)); */
     background-color: rgba(1, 28, 39, 0.5);
     color: #FFFFFF;
 }
@@ -328,7 +323,7 @@ a{
 .navigation-icon, .navigation-icon::before, .navigation-icon::after{
     width: 3rem;
     height: 2px;
-    background-color: red;
+    background-color: #e4b055;
     display: inline-block;
 }
 
@@ -805,7 +800,8 @@ font-weight: bold;
     }
 
     .story-goal{
-          width: 100%;
+        width: 100%;
+        margin-left: 2rem;
       }
   
     .story-shape{
@@ -838,7 +834,6 @@ font-weight: bold;
     .skills{
         display: flex;
         flex-direction: column;
-        
     }
 
     .skills-bar ul{
