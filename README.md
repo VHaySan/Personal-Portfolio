@@ -11,7 +11,7 @@
 ## 📸 **Screenshots**  
 | Desktop View | 
 |--------------|
-| ![Desktop](screenshot-desktop.png) 
+| ![Desktop](images/Screenshot-Portfolio-Website.png) 
 
 ---
 
